@@ -1,150 +1,83 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="AbstractFactoryRealExample.Weapons.Axe" BaseTypeListCollapsed="true">
-    <Position X="1" Y="5" Width="1.5" />
+    <Position X="1" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Weapons\Axe.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IWeapon" />
-    </ShowAsAssociation>
     <Lollipop Orientation="Bottom" Position="0.967" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Weapons.FireBreath" BaseTypeListCollapsed="true">
-    <Position X="1" Y="3.75" Width="1.5" />
-    <AssociationLine Name="IWeapon" Type="AbstractFactoryRealExample.Weapons.IWeapon" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="2.5" Y="4.487" />
-        <Point X="3.25" Y="4.487" />
-        <Point X="3.25" Y="4.25" />
-        <Point X="4.25" Y="4.25" />
-        <Point X="4.25" Y="4.5" />
-      </Path>
-    </AssociationLine>
+    <Position X="1.25" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Weapons\FireBreath.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IWeapon" />
-    </ShowAsAssociation>
     <Lollipop Orientation="Bottom" Position="0.833" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Movements.FlyMovement" BaseTypeListCollapsed="true">
-    <Position X="1" Y="6.5" Width="1.5" />
-    <AssociationLine Name="IMovement" Type="AbstractFactoryRealExample.Movements.IMovement" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="2.5" Y="6.688" />
-        <Point X="4" Y="6.688" />
-        <Point X="4" Y="7.25" />
-      </Path>
-    </AssociationLine>
+    <Position X="1" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Movements\FlyMovement.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IMovement" />
-    </ShowAsAssociation>
     <Lollipop Orientation="Bottom" Position="0.983" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Movements.RunMovement" BaseTypeListCollapsed="true">
-    <Position X="1" Y="8.25" Width="1.5" />
+    <Position X="1" Y="5.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Movements\RunMovement.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IMovement" />
-    </ShowAsAssociation>
     <Lollipop Orientation="Bottom" Position="1.025" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Factories.DragonFactory" BaseTypeListCollapsed="true">
-    <Position X="1" Y="9.75" Width="1.75" />
-    <AssociationLine Name="IMonsterFactory" Type="AbstractFactoryRealExample.Factories.IMonsterFactory" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="2.75" Y="10.188" />
-        <Point X="4.312" Y="10.188" />
-        <Point X="4.312" Y="10.5" />
-      </Path>
-    </AssociationLine>
+    <Position X="1" Y="6.75" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factories\DragonFactory.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IMonsterFactory" />
-    </ShowAsAssociation>
     <Lollipop Orientation="Bottom" Position="1.058" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Factories.OrcFactory" BaseTypeListCollapsed="true">
-    <Position X="1" Y="11.5" Width="1.75" />
-    <AssociationLine Name="IMonsterFactory" Type="AbstractFactoryRealExample.Factories.IMonsterFactory" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="2.75" Y="12.188" />
-        <Point X="4.312" Y="12.188" />
-        <Point X="4.312" Y="11.796" />
-      </Path>
-    </AssociationLine>
+    <Position X="1" Y="8.5" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factories\OrcFactory.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IMonsterFactory" />
-    </ShowAsAssociation>
     <Lollipop Orientation="Bottom" Position="1.133" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Monster">
-    <Position X="6.25" Y="5.25" Width="1.5" />
-    <AssociationLine Name="IMovement" Type="AbstractFactoryRealExample.Movements.IMovement" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7" Y="7.382" />
-        <Point X="7" Y="8.062" />
-        <Point X="5" Y="8.062" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="IWeapon" Type="AbstractFactoryRealExample.Weapons.IWeapon" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="7" Y="5.25" />
-        <Point X="7" Y="4.75" />
-        <Point X="5" Y="4.75" />
-      </Path>
-    </AssociationLine>
+    <Position X="6.25" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAACIAAAAAAAAIAAQIAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAIAAAAAAAAIAAQIAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Monster.cs</FileName>
     </TypeIdentifier>
-    <ShowAsAssociation>
-      <Property Name="IMovement" />
-      <Property Name="IWeapon" />
-    </ShowAsAssociation>
-    <Lollipop Orientation="Left" Position="0.466" />
   </Class>
   <Class Name="AbstractFactoryRealExample.Program">
-    <Position X="7.25" Y="9" Width="1.5" />
+    <Position X="7.25" Y="5.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Interface Name="AbstractFactoryRealExample.Weapons.IWeapon">
-    <Position X="3.5" Y="4.5" Width="1.5" />
+    <Position X="3.5" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Weapons\IWeapon.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="AbstractFactoryRealExample.Movements.IMovement">
-    <Position X="3.5" Y="7.25" Width="1.5" />
+    <Position X="3.5" Y="4" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Movements\IMovement.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="AbstractFactoryRealExample.Factories.IMonsterFactory">
-    <Position X="3.75" Y="10.5" Width="1.5" />
+    <Position X="3.75" Y="7.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
       <FileName>Factories\IMonsterFactory.cs</FileName>

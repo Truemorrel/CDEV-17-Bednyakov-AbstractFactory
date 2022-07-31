@@ -5,6 +5,7 @@
     /// </summary>
     interface IWeapon
     {
+
         void Attack();
     }
 }
